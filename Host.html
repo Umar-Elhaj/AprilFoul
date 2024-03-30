@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commencer le quiz</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main class="main">
+
+        <header class="header">
+            <a href ="#" class="logo">Quiz!</a> 
+            <nav class="navbar">
+                <a href="Host.html" class="homeclass">Home</a>
+                <a href="About Us/AboutUs.html">About Us</a>
+                <a href="Services\Services.html">Services</a>
+                <a href="Contact Us/Contact Us.html">Contact Us</a>
+            </nav>
+           <!--<div class="navigation">
+                <img id="poly" src="logopolyetch.png" alt="">
+            </div>--> 
+        </header>
+        
+        <div class="container">
+            <section class="quiz-section">
+
+            
+                <div class="quiz-box">
+                    <h1>Polytechnique Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Essayer de remportez un ticket graduit</span>
+                        <span class="header-score">Score: 0 / 5 </span>
+                    </div>
+                    <h2 class="question-text"></h2>
+
+                    <div class="option-list">
+                      <!--  see question.js-->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 sur 5 Questions</span>
+                        <button class="next-btn">Suivant</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Quiz Result!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Votre Score 0 sur 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Envoyer</button>
+                        <button class="goHome-btn">Menu</button>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Voyage d'étude</h1>
+                    <p><i>En vue du grand <b>voyage d'etude</b> prevue du 04 au 06 Avril 2024 prochain. L'Ecole Nationale Superieur Polytechnique de Douala
+                        donne la chance au etudiant de  pouvoir être selectionner pour pouvoir participer
+                        a cette evenement gratuitement.</i><br><br> Chers étudiants : Ceci est un exercice d'auto evaluation dans l'optique de recevoir un ticket gratuit pour votre voyage d'etude.
+                        En d'autres termes il va falloir que vous donnez le meilleur de vous meme pour pouvoir beneficier de cela. Une série de question vous sera presentee.
+                        Soyez concentrer.</p>
+                    </p>
+                    <button class="start-button">Commencer</button>
+                </div>
+            </section>
+
+
+        </div>   
+  
+    </main>
+
+
+    <section class="LastPage">
+        <div class="blague">
+            <h4>Vous avez été piégés</h4>
+            <h4>Poisson D'avril</h4>
+            <img id="emoji" src="emoji.png" alt="">
+        </div>
+    </section>   
+
+    <div class="popup-info">
+        <h2>Guide du Quiz</h2>
+        <span class="info">1. Vous avez droit a cinq question a choix</span>
+        <span class="info">2. Tout sera prise en consideration a l'evaluation</span>
+        <span class="info">3. Vous ne pouvez que choisir une reponse </span>
+        <span class="info">4. Le rouge pour la mauvaise et vert pour la bonne</span>
+        <span class="info">5. A la fin cliquer sur Envoyer pour l'evaluation</span>
+        <span class="info">6. Les questions nont rien de particulier</span>
+        <div class="button-group">
+            <button class="info-button exit-btn">Exit Quiz</button>
+            <a href="#" class="info-button continue-btn">Continue</a>
+        </div>
+    </div>
+
+
+
+    <script src="question.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>

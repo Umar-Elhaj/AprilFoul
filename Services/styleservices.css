@@ -1,0 +1,37 @@
+body{
+  background: url('istockphoto-1138740533-612x612.jpg') no-repeat;
+  background-size: cover;
+} 
+section {
+  width:32%;
+  margin:0 auto;
+  margin-top:80px;
+}
+
+h1 {
+  font-family:sans-serif;
+  color:#A8CABA;
+  text-align:center;
+  margin-top:100px;
+  font-size: 80px;
+}
+
+h2 {
+  align-items: center;
+  text-align: center;
+  color: #EBE3AA; 
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: 2em;
+  white-space: nowrap;/*Evitar saltos de línea*/
+  overflow: hidden;
+  width: 30em;
+  font-size: 40px;
+  animation: keyframes 5s steps(500) infinite; 
+}
+
+@keyframes keyframes{ 
+  
+  from{ width: 0px;} 
+  
+}

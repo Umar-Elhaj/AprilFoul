@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Poppings',sans-serif;
+
+
+}
+
+body {
+    color: #fff;
+    background-color: #290772;
+    overflow: hidden;
+}
+
+
+
+#flyer {
+padding-left: 27%;
+padding-top: 2%;
+}
